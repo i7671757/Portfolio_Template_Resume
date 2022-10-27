@@ -12,7 +12,7 @@ import Moon from "../../asserts/icon/Contrast.png";
 
 function Header_right() {
   return (
-    <div>
+    <div className="fixed top-0 right-0.5">
       {/* menu right */}
       <div>
         <img className="moon" src={Moon} alt="" />

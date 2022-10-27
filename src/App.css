@@ -7,3 +7,11 @@
 body {
     background-color: #E5E5E5;
 }
+
+.px{
+    font-size: 32px;
+}
+
+.rem{
+    font-size: 2rem;
+}
