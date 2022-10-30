@@ -9,10 +9,9 @@ import Blog from "../../asserts/icon/Blog.png";
 import Contact from "../../asserts/icon/Contact.png";
 import Moon from "../../asserts/icon/Contrast.png";
 
-
 function Header_right() {
   return (
-    <div className="fixed top-0 right-0.5">
+    <div className="">
       {/* menu right */}
       <div>
         <img className="moon" src={Moon} alt="" />

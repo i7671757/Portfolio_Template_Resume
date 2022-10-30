@@ -3,7 +3,7 @@
 }
 
 .header_right {
-  position: absolute;
+  position: fixed;
   width: 90px;
   height: 1315px;
   right: 0;
@@ -78,9 +78,9 @@
 }
 
 .main_menu {
-  width: 970px;
+  width: 900px;
   height: 467px;
-  margin: auto;
+  margin: 0 50px 0 250px;
   top: 0px;
   /* White */
   background: #ffffff;

@@ -16,16 +16,14 @@ function Header_center() {
           feugiat placerat lobortis. Natoque rutrum semper sed suspendisse nunc
           lectus.
         </p>
-        <button className="w-56 h-12 bg-orange text-lg text-center rounded flex flex-row flex-nowrap content-evenly justify-center items-center">
+        <button className="w-40 h-12 bg-orange text-lg text-center rounded flex flex-row flex-nowrap content-evenly justify-center items-center">
           <span>Hire me</span>
-          <img className="pl-5" src={Line} alt="button" />
+          <img className="pl-2 pt-1" src={Line} alt="button" />
         </button>
       </div>
-      <div className="">
-        <img className="position left-{583px} top-{6px}" src={Myour} alt="" />
+      <div className="absolute right-12 top-2">
+        <img className="" src={Myour} alt="" />
       </div>
-
-    
     </div>
   );
 }
