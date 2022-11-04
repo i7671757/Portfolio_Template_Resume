@@ -1,12 +1,12 @@
 import React from "react";
-import Profile from "../../asserts/img/Profile.png";
+import Profile from "../../assets/img/Profile.png";
 import { GrFacebookOption } from "react-icons/gr";
 import { AiFillInstagram } from "react-icons/ai";
 import { AiOutlineTwitter } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { GrYoutube } from "react-icons/gr";
 import { AiOutlineDribbble } from "react-icons/ai";
-import SkillsIcon from "../../asserts/icon/skills_Icons.png";
+import SkillsIcon from "../../assets/icon/skills_Icons.png";
 import { BiDownload } from "react-icons/bi";
 
 function Header_left() {

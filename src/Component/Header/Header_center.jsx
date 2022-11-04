@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
-import Myour from "../../asserts/img/YourImage1.png";
-import Line from "../../asserts/icon/Vector.png";
+import Myour from "../../assets/img/YourImage1.png";
+import Line from "../../assets/icon/Vector.png";
 
 function Header_center() {
   return (

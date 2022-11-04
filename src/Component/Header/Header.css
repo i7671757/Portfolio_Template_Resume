@@ -16,18 +16,18 @@
   width: 25px;
 }
 
-.header_right_icon {
+/* .header_right_icon {
   display: flex;
   flex-direction: column;
-}
+} */
 
 .home {
   margin: 25% auto;
 }
 
-.home:hover {
+/* .home:hover {
   background-color: #ffb400;
-}
+} */
 
 /* Tooltip container */
 
