@@ -14,7 +14,7 @@ function Header_right() {
     <div className="">
       {/* menu right */}
       <div>
-        <img className="mx-[50px] my-auto w-[25px]" src={Moon} alt="" />
+        <img className="mx-auto my-[50px]" src={Moon} alt="" />
       </div>
       <div className="flex flex-col">
         <div className="tooltip">
