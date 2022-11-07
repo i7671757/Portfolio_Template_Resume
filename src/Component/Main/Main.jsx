@@ -5,7 +5,7 @@ import MainDetaeil from "./MainDetaeil";
 function Main() {
   // console.log(servis);
   return (
-    <main className="relative w-[900px] h-[653px] border mt-24 ml-[22%] mr-[50px">
+    <main className="relative w-[900px] h-[653px] border mt-24 ml-[22%] mr-[50px]">
       <div className="">
         <h1 className="text-center capitalize text-lightBlack font-bold text-3xl font-self">
           my services
