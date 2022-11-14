@@ -5,7 +5,7 @@ import Silver from "./Silver";
 
 function Plan() {
   return (
-    <div className="relative w-[900px] h-[653px] border mt-24 ml-[22%] mr-[50px]">
+    <div className="relative w-[900px] h-[793px] border mt-24 ml-[22%] mr-[50px]">
       <h1 className="text-center capitalize text-lightBlack font-bold text-3xl font-self">
         Price plans
       </h1>

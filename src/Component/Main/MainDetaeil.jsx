@@ -4,12 +4,13 @@ function MainDetaeil({ id, title, image, derc }) {
   const [showInfo, setShowInfo] = useState(false);
   return (
     <div
+      key={id}
       className=""
       onMouseLeave={() => setShowInfo(false)}
       onMouseOver={() => setShowInfo(true)}
     >
       <div className="hover:invisible">
-        <img className="m-auto text-blue my-6" src={image} alt="" />
+        <img className="m-auto text-blue my-6" src={image} alt={title} />
         <h3 className="capitalize text-base text-lightBlack font-medium font-sans text-center">
           {title}
         </h3>
