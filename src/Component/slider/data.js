@@ -30,6 +30,33 @@ export const recom = [
     star: "5",
     id: "3",
   },
+  {
+    title: "Great Quality",
+    derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+    image: Diz,
+    name: "James Gouse",
+    job: "Graphic Designer",
+    star: "5",
+    id: "3",
+  },
+  {
+    title: "Great Quality",
+    derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+    image: Diz,
+    name: "James Gouse",
+    job: "Graphic Designer",
+    star: "5",
+    id: "3",
+  },
+  {
+    title: "Great Quality",
+    derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
+    image: Diz,
+    name: "James Gouse",
+    job: "Graphic Designer",
+    star: "5",
+    id: "3",
+  },
 ];
 
 export default recom;

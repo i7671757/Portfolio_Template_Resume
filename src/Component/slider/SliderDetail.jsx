@@ -2,12 +2,12 @@ import React from "react";
 
 function SliderDetail({ id, image, name, title, derc, job, star }) {
   return (
-    <div key={id}>
-      <h3>{title}</h3>
-      <p>{derc}</p>
-      <img src={image} alt={title} />
-      <h3>{name}</h3>
-      <h5>{job}</h5>
+    <div className="w-[308px] h-[323px] bg-white border-x-[15px]" key={id}>
+      <div className="">
+        <h3>{title}</h3>
+        <h3>{name}</h3>
+        <h5>{derc}</h5>
+      </div>
     </div>
   );
 }
