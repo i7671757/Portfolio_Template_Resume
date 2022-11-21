@@ -12,7 +12,7 @@ function SimpleSlider() {
     speed: 2000,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
   };

@@ -4,7 +4,7 @@ import Diz from "../../assets/img/diz.png";
 
 export const recom = [
   {
-    title: "Great Quality",
+    title: "Great Quality!",
     derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
     image: BizMen,
     name: "Talan Westervelt",
@@ -13,7 +13,7 @@ export const recom = [
     id: 1,
   },
   {
-    title: "Amazing Work",
+    title: "Amazing Work!",
     derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
     image: Photo,
     name: "Tiana Philips",
@@ -22,7 +22,7 @@ export const recom = [
     id: 2,
   },
   {
-    title: "Great Quality",
+    title: "Great Quality!",
     derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
     image: Diz,
     name: "James Gouse",
@@ -31,7 +31,7 @@ export const recom = [
     id: 3,
   },
   {
-    title: "Great Quality",
+    title: "Great Quality!",
     derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
     image: Diz,
     name: "James Gouse",
@@ -40,7 +40,7 @@ export const recom = [
     id: 4,
   },
   {
-    title: "Great Quality",
+    title: "Great Quality!",
     derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
     image: Diz,
     name: "James Gouse",
@@ -49,7 +49,7 @@ export const recom = [
     id: 5,
   },
   {
-    title: "Great Quality",
+    title: "Great Quality!",
     derc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vitae nulla diam in ac dictum a urna viverra morbi. Morbi donec amet....",
     image: Diz,
     name: "James Gouse",
