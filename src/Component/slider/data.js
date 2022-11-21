@@ -9,8 +9,8 @@ export const recom = [
     image: BizMen,
     name: "Talan Westervelt",
     job: "Business Man",
-    star: "5",
-    id: "1",
+    star: 5,
+    id: 1,
   },
   {
     title: "Amazing Work",
@@ -18,8 +18,8 @@ export const recom = [
     image: Photo,
     name: "Tiana Philips",
     job: "Photogropher",
-    star: "5",
-    id: "2",
+    star: 5,
+    id: 2,
   },
   {
     title: "Great Quality",
@@ -27,8 +27,8 @@ export const recom = [
     image: Diz,
     name: "James Gouse",
     job: "Graphic Designer",
-    star: "5",
-    id: "3",
+    star: 5,
+    id: 3,
   },
   {
     title: "Great Quality",
@@ -36,8 +36,8 @@ export const recom = [
     image: Diz,
     name: "James Gouse",
     job: "Graphic Designer",
-    star: "5",
-    id: "3",
+    star: 3,
+    id: 4,
   },
   {
     title: "Great Quality",
@@ -45,8 +45,8 @@ export const recom = [
     image: Diz,
     name: "James Gouse",
     job: "Graphic Designer",
-    star: "5",
-    id: "3",
+    star: 4,
+    id: 5,
   },
   {
     title: "Great Quality",
@@ -54,8 +54,8 @@ export const recom = [
     image: Diz,
     name: "James Gouse",
     job: "Graphic Designer",
-    star: "5",
-    id: "3",
+    star: 2,
+    id: 6,
   },
 ];
 

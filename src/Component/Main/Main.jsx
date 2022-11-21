@@ -16,8 +16,8 @@ function Main() {
         </p>
         <div className="grid grid-cols-3 gap-5">
           {servis.map((item) => (
-            <div className="h-56 w-72 bg-white drop-shadow-lg">
-              <MainDetaeil key={item.id} {...item} />
+            <div key={item.id} className="h-56 w-72 bg-white drop-shadow-lg">
+              <MainDetaeil {...item} />
             </div>
           ))}
         </div>

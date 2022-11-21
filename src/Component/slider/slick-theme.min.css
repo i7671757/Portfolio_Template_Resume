@@ -138,19 +138,19 @@
   opacity: 1;
 }
 .slick-dots li button:before {
-  font-size: 6px;
+  font-size: 10px;
   line-height: 20px;
   position: absolute;
-  top: 0;
+  top: 15px;
   left: 0;
   width: 20px;
   height: 20px;
   content: "•";
   text-align: center;
   opacity: 0.25;
-  color: #000;
+  color: orange;
 }
 .slick-dots li.slick-active button:before {
   opacity: 0.75;
-  color: #000;
+  color: orange;
 } /*# sourceMappingURL=slick-theme.min.css.map */

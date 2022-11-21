@@ -11,8 +11,8 @@ function SimpleSlider() {
     infinite: true,
     speed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 3,
-    autoplay: true,
+    slidesToScroll: 1,
+    autoplay: false,
     autoplaySpeed: 2000,
     pauseOnHover: true,
   };
@@ -27,7 +27,7 @@ function SimpleSlider() {
       </p>
       <Slider {...setting}>
         {data.map((item) => (
-          <div className="">
+          <div key={item.id} className="">
             <SliderDetail key={item.id} {...item} />
           </div>
         ))}
