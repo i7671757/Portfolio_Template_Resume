@@ -5,6 +5,7 @@ import Main from "./Component/Main/Main";
 import Plan from "./Component/plan/Plan";
 import Slider from "./Component/slider/Slider";
 import Education from "./Component/education/Education";
+import Portfolio from "./Component/portfolio/Portfolio";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Plan />
       <Slider />
       <Education />
+      <Portfolio />
     </div>
   );
 }
