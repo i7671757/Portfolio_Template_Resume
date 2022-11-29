@@ -1,9 +1,18 @@
 import React from "react";
+import { PlusIcon } from "@heroicons/react/24/solid";
 
 function Products({ id, image, category }) {
   return (
-    <div>
-      <img src={image} alt="" className="hover:bg-orange" />
+    <div
+      className="mt-12 relative"
+      onMouseLeave={() => setShowInfo(false)}
+      onMouseOver={() => setShowInfo(true)}
+    >
+      <div className=" w-[310px] h-[300px]">
+        <img src={image} alt="" className="absolute " />
+
+        <PlusIcon className="absolute inset-0 hover:bg-orange w-12 m-auto " />
+      </div>
     </div>
   );
 }

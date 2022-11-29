@@ -17,14 +17,14 @@ function Portfolio() {
   }, []);
 
   const btns = [
-    "all Categories",
+    "all categories",
     "ul design",
     "web templates",
     "logo",
     "branding",
   ];
   const filterHandler = (btnName) => {
-    if (btnName === "all Categories") {
+    if (btnName === "all categories") {
       setFilteredDates(data);
       return;
     }
