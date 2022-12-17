@@ -6,6 +6,7 @@ import Plan from "./Component/plan/Plan";
 import Slider from "./Component/slider/Slider";
 import Education from "./Component/education/Education";
 import Portfolio from "./Component/portfolio/Portfolio";
+import Blog from "./Component/blog/Blog";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Slider />
       <Education />
       <Portfolio />
+      <Blog />
     </div>
   );
 }

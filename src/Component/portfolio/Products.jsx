@@ -9,9 +9,10 @@ function Products({ id, image, category }) {
       onMouseOver={() => setShowInfo(true)}
     >
       <div className=" w-[310px] h-[300px]">
-        <img src={image} alt="" className="absolute " />
-
-        <PlusIcon className="absolute inset-0 hover:bg-orange w-12 m-auto " />
+        <img src={image} alt="" className="absolute" />
+        <div className="hover:bg-orange">
+          <PlusIcon className="absolute inset-0 hover:bg-orange w-12 m-auto p-full " />
+        </div>
       </div>
     </div>
   );
