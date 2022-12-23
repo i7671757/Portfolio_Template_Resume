@@ -8,6 +8,8 @@ import Education from "./Component/education/Education";
 import Portfolio from "./Component/portfolio/Portfolio";
 import Blog from "./Component/blog/Blog";
 import Contact from "./Component/contact/Contact";
+import Map from "./Component/maps/Map";
+import Footer from "./Component/footer/Footer";
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
       <Portfolio />
       <Blog />
       <Contact />
+      {/* <Map /> */}
+      <Footer />
     </div>
   );
 }
