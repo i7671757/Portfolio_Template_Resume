@@ -49,7 +49,7 @@ function YInfo() {
         >
           Your message
         </label>
-        <textarea className="block w-full h-[210px] bg-gray-200 focus:outline-none focus:bg-white border rounded py-3 px-4 mb-3 leading-tight "></textarea>
+        <textarea className="block w-full h-[210px] bg-gray-200 text-grey focus:outline-none focus:bg-white border rounded py-3 px-4 mb-3 leading-tight "></textarea>
 
         <button
           type="submit"
