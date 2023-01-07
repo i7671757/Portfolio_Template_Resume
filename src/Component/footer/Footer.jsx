@@ -13,8 +13,8 @@ function Footer() {
         <img src={Frame3} alt="" />
         <img src={Frame4} alt="" />
       </div>
-      <div className="w-full bg-white h-16">
-        <h2 className="capitalize font-sans text-lightBlack font-normal text-sm">
+      <div className="absolute w-full bg-white h-16 mt-5 ">
+        <h2 className="capitalize font-sans text-lightBlack font-normal text-sm text-center mt-6">
           2021 All Rights Reserved.Ojjomedia
         </h2>
       </div>
