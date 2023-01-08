@@ -1,7 +1,10 @@
 import React from "react";
+import { useState } from "react";
+
 import { PlusIcon } from "@heroicons/react/24/solid";
 
 function Products({ id, image, category }) {
+  const [showInfo, setShowInfo] = useState(false);
   return (
     <div
       className="mt-12 relative"
