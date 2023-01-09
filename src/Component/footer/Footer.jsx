@@ -6,7 +6,7 @@ import Frame4 from "../../assets/img/Frame.png";
 
 function Footer() {
   return (
-    <div className="relative w-[900px] h-[140px] border mt-24 ml-[22%] mr-[50px]">
+    <div className="relative w-[900px] h-[140px] border mt-8 ml-[22%] mr-[50px]">
       <div className="flex justify-between">
         <img src={Frame1} alt="" />
         <img src={Frame2} alt="" />

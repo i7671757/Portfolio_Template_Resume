@@ -22,7 +22,7 @@ function App() {
       <Portfolio />
       <Blog />
       <Contact />
-      {/* <Map /> */}
+      <Map />
       <Footer />
     </div>
   );
