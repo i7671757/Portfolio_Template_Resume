@@ -14,7 +14,7 @@ function Header_left() {
     <div className="absolute top-0 left-0 bg-white w-56 h-[1150px]">
       <div className="mx-8 m-5 mt-8">
         {/* <h2>header-left</h2> */}
-        <img className="" src={Profile} alt="" />
+        <img className="rounded-full" src={Profile} alt="" />
         <h3 className="font-self font-medium leading-relaxed text-center capitalize py-1">
           Royan Adlardard
         </h3>
@@ -31,21 +31,21 @@ function Header_left() {
         </div>
       </div>
       <div className="border-t-2 m-5 pt-5">
-        <div className="flex justify-between">
-          <h5 className="bg-orange px-1">Age:</h5>
-          <p className="text-sm py-1">24</p>
+        <div className="flex justify-between mt-2">
+          <h5 className="bg-orange px-1 text-white">Age:</h5>
+          <p className="text-sm py-1 hover:text-lime-600">24</p>
         </div>
-        <div className="flex justify-between">
-          <h5 className="bg-orange px-1">Rasidence:</h5>
-          <p className="text-sm py-1">BD</p>
+        <div className="flex justify-between  mt-2">
+          <h5 className="bg-orange px-1 text-white">Rasidence:</h5>
+          <p className="text-sm py-1 hover:text-lime-600">BD</p>
         </div>
-        <div className="flex justify-between">
-          <h5 className="bg-orange px-1">Freelance:</h5>
-          <p className="text-sm py-1 text-lime-600">Available</p>
+        <div className="flex justify-between  mt-2">
+          <h5 className="bg-orange px-1 text-white">Freelance:</h5>
+          <p className="text-sm py-1 hover:text-lime-600">Available</p>
         </div>
-        <div className="flex justify-between">
-          <h5 className="bg-orange px-1">Address:</h5>
-          <p className="text-sm py-1">Dhaka,Bangladesh</p>
+        <div className="flex justify-between  mt-2">
+          <h5 className="bg-orange px-1 text-white">Address:</h5>
+          <p className="text-sm py-1 hover:text-lime-600">Dhaka,Bangladesh</p>
         </div>
       </div>
       {/* languages */}
