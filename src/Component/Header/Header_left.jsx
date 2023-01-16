@@ -11,7 +11,7 @@ import { BiDownload } from "react-icons/bi";
 
 function Header_left() {
   return (
-    <div className="absolute top-0 left-0 bg-white w-56 h-[1150px]">
+    <div className="absolute top-0 left-0 bg-white w-56 h-[1172px]">
       <div className="mx-8 m-5 mt-8">
         {/* <h2>header-left</h2> */}
         <img className="rounded-full" src={Profile} alt="" />

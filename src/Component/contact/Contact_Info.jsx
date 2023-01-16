@@ -1,6 +1,9 @@
 import React from "react";
-import local from "../../assets/icon/location.png";
-import mail from "../../assets/icon/mail.png";
+import { MapIcon } from "@heroicons/react/24/solid";
+import { EnvelopeIcon } from "@heroicons/react/24/solid";
+import { DevicePhoneMobileIcon } from "@heroicons/react/24/solid";
+
+import { HiDeviceMobile } from "react-icons/hi";
 import mobile from "../../assets/icon/Mobile.png";
 
 function Contact_Info() {
@@ -11,7 +14,7 @@ function Contact_Info() {
       </h1>
       <div className="relative w-full h-[180px] bg-white mb-[15px]">
         <div className="absolute top-[10%] left-[44%] w-10 h-10 bg-orange rounded-full">
-          <img src={local} alt="" className="m-auto py-[25%]" />
+          <MapIcon className="m-auto py-[25%] w-5" />
         </div>
         <div className="px-5 pt-20">
           <div className="flex justify-between">
@@ -42,7 +45,7 @@ function Contact_Info() {
       </div>
       <div className="relative w-full h-[180px] bg-white mb-[15px] mt-[26px]">
         <div className="absolute top-[10%] left-[44%] w-10 h-10 bg-orange rounded-full">
-          <img src={mail} alt="" className="m-auto py-[25%]" />
+          <EnvelopeIcon className="m-auto py-[25%] w-5" />
         </div>
         <div className="px-5 pt-20">
           <div className="flex justify-between">
@@ -73,7 +76,8 @@ function Contact_Info() {
       </div>
       <div className="relative w-full h-[180px] bg-white mb-[15px] mt-[26px]">
         <div className="absolute top-[10%] left-[44%] w-10 h-10 bg-orange rounded-full">
-          <img src={mobile} alt="" className="m-auto py-[25%]" />
+          <DevicePhoneMobileIcon className="m-auto py-[25%] w-5" />
+          {/* <img src={mobile} alt="" className="m-auto py-[25%]" /> */}
         </div>
         <div className="px-5 pt-20">
           <div className="flex justify-between">

@@ -11,10 +11,10 @@ function YInfo() {
           className="text-grey capitalize text-lg font-medium mb-2"
           for="grid-first-name"
         >
-          Your Full Name ( Required)
+          Your Full Name (Required)
         </label>
         <input
-          className="appearance-none block w-full bg-gray-200 text-grey border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+          className="appearance-none block w-full bg-gray-200 text-grey border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:text-grey"
           id="grid-first-name"
           type="text"
           placeholder=""
@@ -23,10 +23,10 @@ function YInfo() {
           className="text-grey capitalize text-lg font-medium mb-2"
           for="grid-first-name"
         >
-          Your Email ( Required)
+          Your Email (Required)
         </label>
         <input
-          className="appearance-none block w-full bg-gray-200 text-grey border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+          className="appearance-none block w-full bg-gray-200 text-grey border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:text-grey"
           id="grid-first-name"
           type="email"
           placeholder=""
@@ -38,7 +38,7 @@ function YInfo() {
           Subject
         </label>
         <input
-          className="appearance-none block w-full bg-gray-200 text-grey border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
+          className="appearance-none block w-full bg-gray-200 text-grey border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:text-grey"
           id="grid-first-name"
           type="text"
           placeholder=""
@@ -49,7 +49,7 @@ function YInfo() {
         >
           Your message
         </label>
-        <textarea className="block w-full h-[210px] bg-gray-200 text-grey focus:outline-none focus:bg-white border rounded py-3 px-4 mb-3 leading-tight "></textarea>
+        <textarea className="block w-full h-[210px] bg-gray-200 text-grey focus:outline-none focus:text-grey border rounded py-3 px-4 mb-3 leading-tight "></textarea>
 
         <button
           type="submit"

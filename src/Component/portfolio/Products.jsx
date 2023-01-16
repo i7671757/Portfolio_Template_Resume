@@ -7,16 +7,16 @@ function Products({ id, image, category }) {
   const [showInfo, setShowInfo] = useState(false);
   return (
     <div
-      className="mt-12 relative"
+      className="mt-12 relative group cursor-pointer" // understood about relative and absolute? yes _))) cool did you undertand it visually? yes thank you welcome any questions? no 
       onMouseLeave={() => setShowInfo(false)}
       onMouseOver={() => setShowInfo(true)}
     >
-      <div className=" w-[310px] h-[300px]">
-        <img src={image} alt="" className="absolute" />
-        <div className="hover:bg-orange">
-          <PlusIcon className="absolute inset-0 hover:bg-orange w-12 m-auto p-full " />
-        </div>
+      <div className="">
+        <img src={image} alt="" className="w-full" />
       </div>
+      <div className="bg-orange w-full h-full items-center absolute left-0 top-0 hidden group-hover:flex">
+          <PlusIcon className="inset-0 w-12 m-auto" />
+        </div>
     </div>
   );
 }

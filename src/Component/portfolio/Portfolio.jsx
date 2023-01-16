@@ -7,7 +7,7 @@ import Products from "./Products";
 
 function Portfolio() {
   const [sity, setSity] = useState([]);
-  const [filteredDates, setFilteredDates] = useState([]);
+  const [filteredDates, setFilteredDates] = useState(data);
 
   useEffect(() => {
     axios.get(data).then((res) => {
